@@ -1,0 +1,47 @@
+.hero{
+    background-image: url(./assets/banner.png.webp);
+    height: 100vh;
+}
+.relax{
+    background-image: url(./assets/video.webp);
+    height: 100vh;
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+
+.mountain{
+    background-image: url(./assets/mountains.webp);
+    height: 60vh;
+    background-size: cover;
+    
+}
+
+.pools{
+    background-image: url(./assets/pools.webp);
+    height: 60vh;
+    background-size: contain;
+    
+
+}
+
+.trees{
+    background-image: url(./assets/tree.webp);
+    height: 60vh;
+    background-size: cover;
+     
+}
+
+.couple{
+    background-image: url(./assets/couple.webp);
+    height: 60vh;
+    background-size: cover;
+   
+}
+
+.pics{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
